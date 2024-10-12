@@ -17,6 +17,5 @@ public class StoreDto {
     private String id;
     private String name;
     private List<ProductDto> products;
-    private List<OfferDto> offers;
     private CityDto city;
 }

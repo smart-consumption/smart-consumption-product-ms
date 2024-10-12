@@ -2,7 +2,7 @@ package com.unicauca.smart_consumption.infrastructure.modules.store.dataprovider
 
 import com.unicauca.smart_consumption.domain.store.Store;
 import com.unicauca.smart_consumption.domain.store.ports.out.IStoreRepository;
-import com.unicauca.smart_consumption.infrastructure.pattern.mapper.StoreJPAMapper;
+import com.unicauca.smart_consumption.infrastructure.pattern.mapper.StoreJpaMapper;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +16,7 @@ import java.util.Optional;
 public class StoreRepositoryAdapter implements IStoreRepository {
 
     private final StoreJPARepository storeRepository;
-    private final StoreJPAMapper storeJPAMapper;
-
+    private final StoreJpaMapper storeJPAMapper;
 
     @Override
     public Store createStore(Store store) {
@@ -32,7 +31,6 @@ public class StoreRepositoryAdapter implements IStoreRepository {
                     Store domainStore = storeJPAMapper.toDomain(storeEntity);
                     domainStore.updateStore(store.getName(), store.getCity());
                     domainStore.setProducts(store.getProducts());
-                    domainStore.setOffers(store.getOffers());
                     StoreJPAEntity updatedEntity = storeJPAMapper.toTarget(domainStore);
                     storeRepository.save(updatedEntity);
                     return domainStore;

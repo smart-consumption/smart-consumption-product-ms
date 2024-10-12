@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a9d30ac-fbc5-402a-b2f3-3ab9d2d6dd0b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/out/IProductEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/publisher/ProductPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/offer/NotifyUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/offer/OfferServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/product/ProductCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/product/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/product/ProductQueryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/review/ReviewServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/store/StoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/store/StoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/application/service/user/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/offer/Offer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/offer/Period.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/offer/ports/in/IOfferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/offer/ports/out/IOfferRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/Detail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/Detail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/in/IProductCommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/in/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/in/IProductQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/out/IProductCommandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/out/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/product/ports/out/IProductQueryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/review/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/review/ports/in/IReviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/review/ports/out/IReviewRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/user/ports/in/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/domain/user/ports/out/IUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityRepositoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityRepositoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/offer/api/OfferWebApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/OfferJPAEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/OfferJPARepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/OfferRepositoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/PeriodEmbeddable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/api/command/ProductCommandWebApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/api/ProductWebApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/api/query/ProductQueryWebApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/api/sync/ProductSyncService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/api/sync/ProductSyncWebApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaCommandRepositoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/jpa/ProductJpaRepositoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/jpa/ProductJpaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/jpa/ProductJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/common/CategoryEmbeddable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/jpa/CategoryEmbeddable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/common/DetailEmbeddable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/jpa/DetailEmbeddable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/common/SustainabilityCriteriaEmbeddable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/jpa/SustainabilityCriteriaEmbeddable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/query/nosql/ProductMongoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/query/nosql/ProductMongoQueryRepositoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/query/nosql/ProductMongoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/review/api/ReviewWebApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/review/dataproviders/jpa/ReviewJPAEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/review/dataproviders/jpa/ReviewJPARepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/review/dataproviders/jpa/ReviewRepositoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreJPAEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreJPAEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreRepositoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreRepositoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/user/api/UserWebApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/user/dataproviders/jpa/UserJPAEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/user/dataproviders/jpa/UserJPARepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/modules/user/dataproviders/jpa/UserRepositoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/dto/OfferDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/dto/ReviewDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/dto/StoreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/dto/StoreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJPAMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJpaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferJPAMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/PeriodMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJpaEntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJpaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJsonEntityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewJPAMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJPAMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJpaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserJPAMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unicauca/smart_consumption/infraestructure/product/dataproviders/command/sql/ProductJpaCommandRepositoryAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/unicauca/smart_consumption/infraestructure/product/dataproviders/command/sql/ProductJpaCommandRepositoryAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/unicauca/smart_consumption/infraestructure/product/dataproviders/query/nosql/ProductMongoQueryRepositoryAdapterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/SmartConsumptionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/SmartConsumptionApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/city/CityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/city/CityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/offer/NotifyUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/offer/OfferServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/product/ProductCommandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/product/ProductQueryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/review/ReviewServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/store/StoreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/store/StoreServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/application/service/user/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/city/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/city/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/city/ports/in/ICityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/city/ports/in/ICityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/city/ports/out/ICityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/city/ports/out/ICityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/common/ApiErrorDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/common/ApiErrorDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/common/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/common/ResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/constant/MessagesConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/constant/MessagesConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/offer/Offer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/offer/Period.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/offer/ports/in/IOfferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/offer/ports/out/IOfferRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Detail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Detail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/ProductStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/ProductStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/Rating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/SustainabilityCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/SustainabilityCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/ports/in/IProductCommandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/ports/in/IProductQueryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/ports/out/IProductCommandRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/product/ports/out/IProductQueryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/review/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/review/ports/in/IReviewService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/review/ports/out/IReviewRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/store/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/store/ports/in/IStoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/store/ports/in/IStoreService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/store/ports/out/IStoreRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/store/ports/out/IStoreRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/user/ports/in/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/domain/user/ports/out/IUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/config/SpringDocConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/config/SpringDocConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/exception/BaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/exception/BaseException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/exception/BusinessRuleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/exception/BusinessRuleException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/messages/MessageLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/messages/MessageLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/api/CityWebApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/api/CityWebApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityJPAEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityJPAEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityJPARepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityJPARepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/city/dataproviders/jpa/CityRepositoryAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/offer/api/OfferWebApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/OfferJPAEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/OfferJPARepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/OfferRepositoryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/offer/dataproviders/jpa/PeriodEmbeddable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/api/command/ProductCommandWebApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/api/query/ProductQueryWebApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/api/sync/ProductSyncService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/api/sync/ProductSyncWebApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaCommandRepositoryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaEntity$ProductJpaEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/command/sql/ProductJpaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/common/CategoryEmbeddable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/common/DetailEmbeddable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/common/SustainabilityCriteriaEmbeddable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/query/nosql/ProductMongoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/query/nosql/ProductMongoQueryRepositoryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/product/dataproviders/query/nosql/ProductMongoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/review/api/ReviewWebApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/review/dataproviders/jpa/ReviewJPAEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/review/dataproviders/jpa/ReviewJPARepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/review/dataproviders/jpa/ReviewRepositoryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/api/StoreWebApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/api/StoreWebApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreJPAEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreJPAEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreJPARepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreJPARepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/store/dataproviders/jpa/StoreRepositoryAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/user/api/UserWebApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/user/dataproviders/jpa/UserJPAEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/user/dataproviders/jpa/UserJPARepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/modules/user/dataproviders/jpa/UserRepositoryAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/CategoryDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/CategoryDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/CityDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/CityDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/OfferDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/ProductDto$ProductDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/ProductDto$ProductDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/ProductDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/ProductDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/ReviewDto$ReviewDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/ReviewDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/StoreDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/StoreDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJPAMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJPAMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJPAMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJPAMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/EntityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/EntityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferJPAMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferJPAMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/PeriodMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/PeriodMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJpaEntityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJpaEntityMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJsonEntityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJsonEntityMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewJPAMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewJPAMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJPAMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJPAMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJPAMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJPAMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserJPAMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserJPAMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJPAMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityJpaMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/CityMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferJPAMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferJPAMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/OfferMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/PeriodMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/PeriodMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJpaEntityMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJpaMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJsonEntityMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductJsonEntityMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ProductMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewJPAMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewJPAMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/ReviewMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJPAMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreJpaMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/StoreMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserJPAMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserJPAMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/unicauca/smart_consumption/infrastructure/pattern/mapper/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/unicauca/smart_consumption/SmartConsumptionApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/unicauca/smart_consumption/SmartConsumptionApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/unicauca/smart_consumption/infraestructure/product/dataproviders/command/sql/ProductJpaCommandRepositoryAdapterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/unicauca/smart_consumption/infraestructure/product/dataproviders/command/sql/ProductJpaCommandRepositoryAdapterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/unicauca/smart_consumption/infraestructure/product/dataproviders/query/nosql/ProductMongoQueryRepositoryAdapterTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2nM4HhK96psyij1vs5iA582vyRc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SmartConsumptionApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/compilaciones/smart-consumption-product-ms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="smart-consumption-product-ms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartConsumptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="smart_consumption" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.unicauca.smart_consumption.SmartConsumptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a9d30ac-fbc5-402a-b2f3-3ab9d2d6dd0b" name="Changes" comment="" />
+      <created>1728769524338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728769524338</updated>
+      <workItem from="1728769525403" duration="4739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
