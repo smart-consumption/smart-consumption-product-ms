@@ -2,7 +2,7 @@ package com.unicauca.smart_consumption.infrastructure.modules.city.dataproviders
 
 import com.unicauca.smart_consumption.domain.city.City;
 import com.unicauca.smart_consumption.domain.city.ports.out.ICityRepository;
-import com.unicauca.smart_consumption.infrastructure.pattern.mapper.CityJPAMapper;
+import com.unicauca.smart_consumption.infrastructure.pattern.mapper.CityJpaMapper;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.Optional;
 public class CityRepositoryAdapter implements ICityRepository {
 
     private final CityJPARepository cityJPARepository;
-    private final CityJPAMapper cityJPAMapper;
+    private final CityJpaMapper cityJPAMapper;
 
 
     @Override

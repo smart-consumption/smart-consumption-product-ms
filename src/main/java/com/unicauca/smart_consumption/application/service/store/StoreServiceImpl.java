@@ -3,7 +3,7 @@ package com.unicauca.smart_consumption.application.service.store;
 import com.unicauca.smart_consumption.domain.common.ResponseDto;
 import com.unicauca.smart_consumption.domain.constant.MessagesConstant;
 import com.unicauca.smart_consumption.domain.product.Product;
-import com.unicauca.smart_consumption.domain.product.ports.out.IProductQueryRepository;
+import com.unicauca.smart_consumption.domain.product.ports.out.IProductRepository;
 import com.unicauca.smart_consumption.domain.store.Store;
 import com.unicauca.smart_consumption.domain.store.ports.in.IStoreService;
 import com.unicauca.smart_consumption.domain.store.ports.out.IStoreRepository;
@@ -21,7 +21,7 @@ import java.util.List;
 public class StoreServiceImpl implements IStoreService {
 
     private final IStoreRepository storeRepository;
-    private final IProductQueryRepository productRepository;
+    private final IProductRepository productRepository;
 
     @Override
     public ResponseDto<Store> createStore(Store store) {

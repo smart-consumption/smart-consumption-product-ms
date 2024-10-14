@@ -12,10 +12,10 @@ import com.unicauca.smart_consumption.domain.product.Product;
 import com.unicauca.smart_consumption.domain.product.Category;
 import com.unicauca.smart_consumption.domain.product.Detail;
 import com.unicauca.smart_consumption.domain.product.SustainabilityCriteria;
-import com.unicauca.smart_consumption.infrastructure.pattern.mapper.ProductJpaEntityMapper;
-import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.command.sql.ProductJpaCommandRepositoryAdapter;
-import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.command.sql.ProductJpaEntity;
-import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.command.sql.ProductJpaRepository;
+import com.unicauca.smart_consumption.infrastructure.pattern.mapper.ProductJpaMapper;
+import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaRepositoryAdapter;
+import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaEntity;
+import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -30,9 +30,9 @@ public class ProductJpaCommandRepositoryAdapterTest {
 
   @Mock
   private ProductJpaRepository productJpaRepository;
-  private final ProductJpaEntityMapper productJpaMapper = Mappers.getMapper(ProductJpaEntityMapper.class);
+  private final ProductJpaMapper productJpaMapper = Mappers.getMapper(ProductJpaMapper.class);
   @InjectMocks
-  private ProductJpaCommandRepositoryAdapter productJpaCommandRepositoryAdapter;
+  private ProductJpaRepositoryAdapter productJpaCommandRepositoryAdapter;
 
   @Test
   void testCreateProduct_Success() {
