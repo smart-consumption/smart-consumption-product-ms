@@ -1,21 +1,14 @@
 package com.unicauca.smart_consumption.infraestructure.product.dataproviders.command.sql;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.never;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
-
-import com.unicauca.smart_consumption.domain.product.Product;
 import com.unicauca.smart_consumption.domain.product.Category;
 import com.unicauca.smart_consumption.domain.product.Detail;
+import com.unicauca.smart_consumption.domain.product.Product;
 import com.unicauca.smart_consumption.domain.product.SustainabilityCriteria;
-import com.unicauca.smart_consumption.infrastructure.pattern.mapper.ProductJpaMapper;
-import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaRepositoryAdapter;
+import com.unicauca.smart_consumption.domain.product.ports.out.IProductEventPublisher;
 import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaEntity;
 import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaRepository;
+import com.unicauca.smart_consumption.infrastructure.modules.product.dataproviders.jpa.ProductJpaRepositoryAdapter;
+import com.unicauca.smart_consumption.infrastructure.pattern.mapper.ProductJpaMapper;
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -25,11 +18,22 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.test.util.ReflectionTestUtils;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
 @ExtendWith(MockitoExtension.class)
 public class ProductJpaCommandRepositoryAdapterTest {
 
   @Mock
   private ProductJpaRepository productJpaRepository;
+  @Mock
+  private IProductEventPublisher productEventPublisher;
   private final ProductJpaMapper productJpaMapper = Mappers.getMapper(ProductJpaMapper.class);
   @InjectMocks
   private ProductJpaRepositoryAdapter productJpaCommandRepositoryAdapter;
@@ -54,6 +58,7 @@ public class ProductJpaCommandRepositoryAdapterTest {
     ProductJpaEntity existingEntity = ProductJpaEntity.builder().id(productId).build();
     when(productJpaRepository.findById(productId)).thenReturn(java.util.Optional.of(existingEntity));
     when(productJpaRepository.save(any(ProductJpaEntity.class))).thenReturn(existingEntity);
+    doNothing().when(productEventPublisher).publishProductUpdated(any());
     Product updatedProduct = new Product();
     updatedProduct.setName("Updated Product");
     updatedProduct.setCategory(new Category(testStr));
